@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ABHINAV-Portifolio</title>
+    <script src="https://kit.fontawesome.com/f9df02bf03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="portifolio.css">
+</head>
+
+<body>
+    <div class="home-bg">
+        <nav class="navbar">
+            <div class="header-inner">
+                <div class="navbar-logo-container">
+                    <h1 class="navbar-heading">
+                         <span class="navbar-logo-span">Abhinav</span>
+                    </h1>
+                </div>
+                <ul class="navbar-options">
+                    <li class="navbar-option">
+                        <a href="#home" class="anchor">Home</a>
+                    </li>
+                    <li class="navbar-option">
+                        <a href="#about" class="anchor">About</a>
+                    </li>
+                    <li class="navbar-option">
+                        <a href="#skills" class="anchor">Skills</a>
+                    </li>
+                    <li class="navbar-option">
+                        <a href="#projects" class="anchor">Projects</a>
+                    </li>
+                    <li class="navbar-option">
+                        <a href="#contact-us" class="anchor">Contact</a>
+                    </li>
+                </ul>
+                <button type="button" class="menu-button" onclick="toggleNav()">
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </button>
+            </div>
+            <ul class="small-navbar-options show" id="small-nav">
+                <li class="navbar-option">
+                    <a href="#home" class="anchor white-anchor">Home</a>
+                </li>
+                <li class="navbar-option">
+                    <a href="#about" class="anchor white-anchor">About</a>
+                </li>
+                <li class="navbar-option">
+                    <a href="#skills" class="anchor white-anchor">Skills</a>
+                </li>
+                <li class="navbar-option">
+                    <a href="#projects" class="anchor white-anchor">Projects</a>
+                </li>
+                <li class="navbar-option">
+                    <a href="#contact-us" class="anchor white-anchor">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="home-inner">
+            <div class="home-intro" id="home">
+                <h1 class="home-intro-heading">
+                    Hai all 👋, I am <span class="intro-name">Abhinav</span>
+                </h1> 
+                <h2 class="heading-2">A <span class="heading-2-span"></span></h2>
+                <p class="home-intro-description">
+                    A seasoned Full Stack Developer with a passion for crafting seamless
+                    digital experiences. With expertise in both front-end and back-end
+                    technologies, I specialize in creating dynamic web applications that
+                    marry functionality with aesthetics. Proficient in languages like
+                    JavaScript, HTML, and CSS and Python.
+                </p>
+            </div>
+
+            <div class="about-section" id="about">
+                <div class="about-inner">
+                    <h1 class="about-heading">
+                        About <span class="about-heading-span">Me</span>
+                    </h1>
+                    <p class="about-1">
+                        I am a Web Developer from Andhra Pradesh.
+                    </p>
+                   
+                    <p class="about-2">
+                        Throughout my career, I have honed my problem-solving skills,
+                        thriving in fast-paced environments where I can innovate and
+                        overcome technical challenges. Collaborative by nature, I enjoy
+                        working closely with cross-functional teams to translate ideas into
+                        tangible products that exceed expectations. Continuously learning
+                        and adapting to emerging technologies, I stay at the forefront of
+                        industry trends, ready to implement cutting-edge solutions.
+                    </p>
+                </div>
+
+                <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707628409/web_x4fo8q.webp" alt="about-img" class="about-img" />
+            </div>
+
+            <div class="skills-section" id="skills">
+                <h1 class="skills-heading">Skills</h1>
+                <div class="skills-cards-container">
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630987/html_xfrz5o.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">HTML</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630987/css_pcw2qg.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">CSS</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630987/bootstrap_v12fom.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">Bootstrap</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630987/js_pmyu34.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">Js</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630988/python_pdizj2.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">Python</p>
+                    </div>
+
+                    <div class="skill-card">
+                        <img src="https://res.cloudinary.com/daxizvsge/image/upload/v1707630988/sql_dms6lr.jpg" alt="skill-img" class="skill-img" />
+                        <p class="skill-name">Sql</p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-me-section" id="contact-us">
+                <h1 class="contact-heading">Contact Information</h1>
+                <ul class="contact-items">
+                    <li class="contact-item">Name:ABHINAV</li>
+                    <li class="contact-item"><i class="fa-solid fa-phone" style="font-size:20px"></i> 123456789</li>
+                    <li class="contact-item"><i class="fa-solid fa-location-dot" style="font-size:20px"></i>Andhra Pradesh</li>
+                    <li class="contact-item">
+                        <i class="fa-brands fa-linkedin" style="font-size:20px"></i>
+                        <a href="https://www.linkedin.com/in/APPACHULA-ABHINAV-a216742a5">
+                            www.linkedin.com/in/APPACHULA ABHIANV
+                        </a>
+                    </li>
+                    <li class="contact-item">
+                        Resume :
+                        <a href="https://s3-ap-south-1.amazonaws.com/nkb-backend-ccbp-media-static/ccbp_prod/media/resume_generated/Harshitha_2024-01-02-183054.pdf">
+                            My Resume
+                        </a>
+                    </li>
+                </ul>
+                <div class="copy-right-container">
+                    <p class="copy-right-text"><i class="fa-regular fa-copyright" style="font-size:20px"></i> Copyright Abhinav@2024</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed(".heading-2-span", {
+            strings: ["Developer", "Gamer", "Creator"],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        })
+        const smallNavElement = document.getElementById("small-nav");
+
+
+        function toggleNav() {
+            smallNavElement.classList.toggle("show");
+        }
+    </script>
+</body>
+
+</html>
